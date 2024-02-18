@@ -1,0 +1,49 @@
+html, body {
+	background: #1d253b;
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+}
+
+header {
+	width: 100%;
+	display: flex;
+}
+
+header>* {
+	flex-basis: auto;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+header menu {
+	flex-grow: 3;
+	flex-shrink: 3;
+}
+
+header menu ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+header menu ul li {
+	min-width: 20%;
+	text-align: center;
+	padding: 10px 5px;
+	background: #244ba6;
+	border-radius: 5px;
+}
+
+header menu ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+main ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+main a[href] {
+	color: #4f9aff;
+}
